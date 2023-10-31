@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(222, 214, 214);
+    /* width: 90%;
+    margin: 80px; */
+}
+.all{
+    position: relative;
+    background-color: rgb(57, 57, 57);
+    width: 80%;
+    margin: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+form{
+    margin: 50px;
+    width: 80%;
+    height: 300px;
+}
+.frm{
+    /* color: black; */
+    background-color: skyblue;
+    width: 40%;
+    height: 400px;
+    margin: 20px 30px 20px 500px;
+    padding: 20px;
+    text-align: center;
+}
+.frm h2{
+    font-family: 'Heebo', sans-serif;
+   
+}
+.frm input[type="text"]{
+    height: 20px;
+    width: 80%;
+    margin: 8px;
+    border: none;
+
+}
+.frm textarea{
+    height: 50px;
+    width: 80%;
+    margin: 8px;
+    border: none;
+}
+.frm input[type="submit"]{
+    height:20px;
+    width: 100px;
+    margin: 8px;
+    background-color: transparent;
+    border-color:white;
+    border: 1px solid;
+}
+.main{
+    display: block;
+    position: absolute;
+    width:40%;
+    height: 300px;
+    margin: 110px 0px 0px 150px;
+}
+.main .row{
+    width: 100%;
+    height: 120px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.main .col{
+    width: 45%;
+    height:120px ;
+    background-color:white;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: brown;
+}
+.main h4{
+    font-family: 'Heebo', sans-serif;
+}
+.office{
+    margin: 0px 0px 0px 0px;
+}
+.phone{
+    margin: 0px 0px 0px 0px;
+}
+.fax{
+    margin: 0px 0px 0px 0px;
+}
+.mail{
+    margin: 0px 0px 0px 0px;
+}
